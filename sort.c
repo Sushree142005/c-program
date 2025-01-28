@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<stdlib.h>
-void swap(int*a,int*b){
-	int t=*a;
-	*a=*b;
-	*b=t;
-}
+// void swap(int*a,int*b){
+// 	int t=*a;
+// 	*a=*b;
+// 	// *b=t;
+// }
 void quicksort(int a[],int f, int l){
 	int dn=f+1,up=l,fix=a[f];
 	while(fix>a[dn])
